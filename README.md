@@ -34,7 +34,7 @@ It contains various data (worldwide, per continent, per country) that was collec
 
 ## Project Goals
 
-The goal of the project is to analyse COIVD-19 data by studying and answering the following question:
+The goal of the project is to analyse COIVD-19 data by studying and answering the following questions:
 
 1. What was the probability of dying if a person is infected (worldwide, in each continent, in each country)?
    
