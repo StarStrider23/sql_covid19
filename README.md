@@ -108,4 +108,4 @@ It's interesting to check if there are other sorts of correlations. Human develo
 
 <img width="1175" alt="Снимок экрана 2025-04-23 в 18 46 45" src="https://github.com/user-attachments/assets/189ae023-0daf-44e0-8c62-8ce52f71e038" />
 
-The countries with bigger share of their population infected/deceased tend to locate themselves on the right side of the graph, where HDI is bigger. This is especially true for the upper graph. But of course, there are lots of exception to this - just look at the graphs!
+The countries with bigger share of their population infected/deceased tend to locate themselves on the right side of the graph, where HDI is bigger. This is especially true for the upper graph. But of course, there are lots of exceptions to this - just look at the graphs!
