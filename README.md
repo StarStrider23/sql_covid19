@@ -64,15 +64,50 @@ The worldwide numbers show that the total of 777,602,273 people (9.7% of the wor
 
 Now, it is interesting to break down the information by continents and countries.
 
-<img width="681" alt="Снимок экрана 2025-04-23 в 13 51 03" src="https://github.com/user-attachments/assets/9af345c1-e982-4ce3-9ef2-f9548c2906b7" />
+<img width="652" alt="Снимок экрана 2025-04-23 в 15 15 46" src="https://github.com/user-attachments/assets/5ad41fc1-acc4-4fb1-be3f-50c78f0f6bc7" />
 
-Interestingly enough, Africa had the lowest percentage of people infected and deceased, but had the highest probability of dying for people who got infected. Now, for obvious reasons, it's harder to show the full data for all countries. Therefore, I only show the top 5 countries in the 3 categories from each continent.
+Interestingly enough, Africa had the lowest percentage of people infected and deceased, but had the highest probability of dying for people who got infected. 
+
+Now, for obvious reasons, it's harder to show the full data for all countries. Therefore, I only show the top 5 countries in the 3 categories from each continent.
 
 ![Снимок экрана 2025-04-23 в 14 01 32-side](https://github.com/user-attachments/assets/cd746894-b9db-43e4-9d6e-00e6bdcdcf12)
 
 One can also find out that there are no countries that are in all top 5s. However, including 10 countries makes a difference - there are now 12 countries: 2 from Africa (Tunisia, South Africa), 3 from Oceania (Guam, Northern Mariana Islands, Wallis and Futuna) and 7 from South America (Peru, Brazil, Chile, Paraguay, Argentina, Columbia, Suriname).
 
 ### 4. 
+
+Now, let's look how many people were vaccinated and fully vaccinated. Here are the world's numbers, which are pretty high - 70% and 65% respectively.
+
+<img width="331" alt="Снимок экрана 2025-04-23 в 15 14 32" src="https://github.com/user-attachments/assets/09054965-a547-4d44-abda-a0d009eca21b" />
+
+The same metrics for the continents. We have Africa being the continent with the lowest numbers and South America with the highest.
+
+<img width="348" alt="Снимок экрана 2025-04-23 в 15 18 16" src="https://github.com/user-attachments/assets/fa0b625d-a7f3-4870-b7b7-59f713184bcc" />
+
+Similarly, here are top 5 countries in people vaccinated and people fully vaccinated from each continent. 
+
+<img width="440" alt="Снимок экрана 2025-04-23 в 15 19 17" src="https://github.com/user-attachments/assets/86277e45-b069-4028-abe5-113a64b64d17" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
