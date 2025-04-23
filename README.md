@@ -1,6 +1,8 @@
-# COVID-19 analysis
+# COVID-19 Analysis
 
 Project by Alexsey Chernichenko.
+
+## Project Background and Overview
 
 The dataset used can be found in https://docs.owid.io/projects/etl/api/covid/
 
