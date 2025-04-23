@@ -32,11 +32,21 @@ The goal of the project is to analyse COIVD-19 data by studying and answering th
 
 ### 1+2+3.
 
-The worldwide numbers show that the total of 777,602,273 (9.7% of the world's population) of people were infected and 7,092,419 of people deceased (ca 0.09% of the population). One can also calculate the probability of dying once infected, which is simply the number of deceased divided by the number of infected. This value is 0.9%. 
+The worldwide numbers show that the total of 777,602,273 people (9.7% of the world's population) were infected and 7,092,419 of  people deceased (ca 0.09% of the population). One can also calculate the probability of dying once infected, which is simply the number of deceased divided by the number of infected. This value is 0.9%. 
 
 <img width="638" alt="world_inf+dec" src="https://github.com/user-attachments/assets/4fbe747e-c4a0-4c1d-9e64-7d58e8400aaf" />
 
+Now, it is interesting to break down the information by continents and countries.
+
+<img width="681" alt="Снимок экрана 2025-04-23 в 13 51 03" src="https://github.com/user-attachments/assets/9af345c1-e982-4ce3-9ef2-f9548c2906b7" />
+
+Interestingly enough, Africa had the lowest percentage of people infected and deceased, but had the highest probability of dying for people who got infected. Now, for obvious reasons, it's harder to show the full data for all countries. Therefore, I only show the top 5 countries in the 3 categories from each continent.
+
+![Снимок экрана 2025-04-23 в 14 01 32-side](https://github.com/user-attachments/assets/cd746894-b9db-43e4-9d6e-00e6bdcdcf12)
+
+One can also find out that there are no countries that are in all top 5s. However, including 10 countries makes a difference - there are now 12 countries: 2 from Africa (Tunisia, South Africa), 3 from Oceania (Guam, Northern Mariana Islands, Wallis and Futuna) and 7 from South America (Peru, Brazil, Chile, Paraguay, Argentina, Columbia, Suriname).
+
+### 4. 
 
 
-Now, it is interesting to break down the information by continents and countries. 
 
