@@ -6,7 +6,7 @@ Project by Alexsey Chernichenko.
 
 The dataset used can be found in https://docs.owid.io/projects/etl/api/covid/
 
-It contains various data (worldwide, per continent, per country) that was collected during the years of the COVID-19 pandemic and beyond. The table doesn't only contain essential information like number of infected, deceased and people vaccinated, but also how many patients were in ICU, total tests for COVID-19 and many more. Although, majority of these metrics aren't used. Overall, there are 61 columns and 491818 rows.
+It contains various data (worldwide, per continent, per country) that was collected during the years of the COVID-19 pandemic and beyond. The table doesn't only contain essential information like number of infected, deceased and people vaccinated, but also how many patients were in ICU, total tests for COVID-19 and many more. Although, majority of these metrics aren't used. Overall, there are 61 columns and 491,818 rows.
 
 ## Project Goals
 
@@ -33,6 +33,9 @@ The goal of the project is to analyse COIVD-19 data by studying and answering th
 ### 1+2+3.
 
 The worldwide numbers show that the total of 777,602,273 (9.7% of the world's population) of people were infected and 7,092,419 of people deceased (ca 0.09% of the population). One can also calculate the probability of dying once infected, which is simply the number of deceased divided by the number of infected. This value is 0.9%. 
+
+<img width="638" alt="world_inf+dec" src="https://github.com/user-attachments/assets/4fbe747e-c4a0-4c1d-9e64-7d58e8400aaf" />
+
 
 
 Now, it is interesting to break down the information by continents and countries. 
