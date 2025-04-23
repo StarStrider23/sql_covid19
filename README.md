@@ -22,9 +22,9 @@ It contains various data (worldwide, per continent, per country) that was collec
   
 - new_deaths - new deaths attributed to COVID-19 counted each day
   
-- people_vaccinated - total number of people who received at least one vaccine dose
+- people_vaccinated - total number of people who received at least one vaccine dose (cumulative)
   
-- people_fully_vaccinated - total number of people who received all doses prescribed by the initial vaccination protocol
+- people_fully_vaccinated - total number of people who received all doses prescribed by the initial vaccination protocol (cumulative)
   
 - population - population of a specific country
   
