@@ -86,7 +86,8 @@ The same metrics for the continents. We have Africa being the continent with the
 
 Similarly, here are top 5 countries in people vaccinated and people fully vaccinated from each continent. 
 
-<img width="440" alt="Снимок экрана 2025-04-23 в 15 19 17" src="https://github.com/user-attachments/assets/86277e45-b069-4028-abe5-113a64b64d17" />
+![Снимок экрана 2025-04-23 в 15 35 04-side](https://github.com/user-attachments/assets/0220fd6c-00b3-4bf5-8224-c0cdf98f038f)
+
 
 
 
