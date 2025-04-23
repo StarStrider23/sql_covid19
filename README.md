@@ -30,8 +30,6 @@ It contains various data (worldwide, per continent, per country) that was collec
   
 - continent - continent of a geographical location
   
-- handwashing_facilities - share of the population with basic handwashing facilities on premises, most recent year available (measured in %)
-  
 - human_development_index - a composite index measuring average achievement in three basic dimensions of human development—a long and healthy life, knowledge and a decent standard of living (values range from 0 to 1)
 
 ## Project Goals
@@ -51,8 +49,6 @@ The goal of the project is to analyse COIVD-19 data by studying and answering th
 6. Are there any correlation between vaccinations and new cases of infected/deceased?
 
 7. Are there any correlation between percentage of people infected/deceased and HDI (Human Development Index)?
-
-8. Are there any correltaion between percentage of people infected(deceased and share of the population with basic handwashing facilities on premises?
 
 ## Results
 
@@ -98,32 +94,18 @@ But it's more interesting to study whether there's a correlation between people 
 
 and ranges from -1 (negative correlation) and +1 (positive correlation).
 
-The correlation coefficient for new cases of infected vs total people vaccinated is 0.22 whereas the correlation coefficient for new cases of deaths vs total people vaccinated is -0.44, which is a bit surprising. First of all, a positive (negative) correlation coefficient implies that the variables are proportional (inversely proportional). In our case, it would mean that there exists a correlation between growth (decreas) of people infected/deceased and people vaccinated. The first value is quite low and the correlation is said to be low. On the other hand, the 2nd value suggests a moderate correltion and, what's even more important, it also says that the values are inversely proportional (i.e. the more people got vaccinated, the fewer people died). But of course it would be wrong to impose a connection simply based on this. 
+The correlation coefficient for new cases of infected vs total people vaccinated is 0.22 whereas the correlation coefficient for new cases of deaths vs total people vaccinated is -0.44, which is a bit surprising. First of all, a positive (negative) correlation coefficient implies that the variables are proportional (inversely proportional). In our case, it would mean that there exists a correlation between growth (decreas) of people infected/deceased and people vaccinated. The first value is quite low and the correlation is said to be low. On the other hand, the 2nd value suggests a moderate correltion and, what's even more important, it also says that the values are inversely proportional (i.e. the more people got vaccinated, the fewer people died). But of course it would be wrong to impose a connection between the variables simply based on this. 
 
 Finally, let's visualise the data. 
 
 <img width="1236" alt="Снимок экрана 2025-04-23 в 16 37 01" src="https://github.com/user-attachments/assets/78b73edf-ec0a-42d3-bb07-a6618974679d" />
 
+Looking at the graphs, it appears to be clear why the correlations are not strong. On the upper graph, there are 2 peaks after majority of the population got vaccinated and it is just clear that the number of the new cases only started to decrease in the beginning of 2023, just after the 2nd peak. However, the lower graph tells another story and one could argue that the number of deceased people had gone down after people started to get vaccinations. 
 
+### 7.
 
+It's interesting to check if there are other sorts of correlations. Human development index (HDI) could be a good metric to test. After all, it includes a measure of standard of living. The correlation between HDI and share of infected people is 0.74 whereas it is 0.58 between HDI and percentage of people deceased. Both values are quite high, which is actually quite surprising! However, looking at the graphs below one can see why this is the case. 
 
+<img width="1175" alt="Снимок экрана 2025-04-23 в 18 46 45" src="https://github.com/user-attachments/assets/189ae023-0daf-44e0-8c62-8ce52f71e038" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+The countries with bigger share of their population infected/deceased tend to locate themselves on the right side of the graph, where HDI is bigger. But of course, there are lots of exception to this - just look at the graphs!
