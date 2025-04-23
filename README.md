@@ -8,6 +8,32 @@ The dataset used can be found in https://docs.owid.io/projects/etl/api/covid/
 
 It contains various data (worldwide, per continent, per country) that was collected during the years of the COVID-19 pandemic and beyond. The table doesn't only contain essential information like number of infected, deceased and people vaccinated, but also how many patients were in ICU, total tests for COVID-19 and many more. Although, majority of these metrics aren't used. Overall, there are 61 columns and 491,818 rows.
 
+## Relevant metrics
+
+- country - name of a specific country
+  
+- date - YYYY-MM-DD
+  
+- total_cases - total confirmed cases of COVID-19 (cumulative)
+  
+- new_cases - new confirmed cases of COVID-19 counted each day
+  
+- total_deaths - total deaths attributed to COVID-19 (cumulative)
+  
+- new_deaths - new deaths attributed to COVID-19 counted each day
+  
+- people_vaccinated - total number of people who received at least one vaccine dose
+  
+- people_fully_vaccinated - total number of people who received all doses prescribed by the initial vaccination protocol
+  
+- population - population of a specific country
+  
+- continent - continent of a geographical location
+  
+- handwashing_facilities - share of the population with basic handwashing facilities on premises, most recent year available (measured in %)
+  
+- human_development_index - a composite index measuring average achievement in three basic dimensions of human development—a long and healthy life, knowledge and a decent standard of living (values range from 0 to 1)
+
 ## Project Goals
 
 The goal of the project is to analyse COIVD-19 data by studying and answering the following question:
