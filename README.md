@@ -74,7 +74,7 @@ Now, for obvious reasons, it's harder to show the full data for all countries. T
 
 One can also find out that there are no countries that are in all top 5s. However, including 10 countries makes a difference - there are now 12 countries: 2 from Africa (Tunisia, South Africa), 3 from Oceania (Guam, Northern Mariana Islands, Wallis and Futuna) and 7 from South America (Peru, Brazil, Chile, Paraguay, Argentina, Columbia, Suriname).
 
-### 4. 
+### 4+5. 
 
 Now, let's look how many people were vaccinated and fully vaccinated. Here are the world's numbers, which are pretty high - 70% and 65% respectively.
 
@@ -86,8 +86,23 @@ The same metrics for the continents. We have Africa being the continent with the
 
 Similarly, here are top 5 countries in people vaccinated and people fully vaccinated from each continent. 
 
-![Снимок экрана 2025-04-23 в 15 35 04-side](https://github.com/user-attachments/assets/0220fd6c-00b3-4bf5-8224-c0cdf98f038f)
+![Снимок экрана 2025-04-23 в 15 35 04-side](https://github.com/user-attachments/assets/eed08df8-e33f-4ff6-900b-28255d857336)
 
+And majority of the countries are present in both top 5, as one can see. The only issue is that there are 3 countries (Nauru, Cook Islands, Gibraltar) that have more than 100% people vaccinated, which of course implies that there's something wrong with the data. 
+
+### 6. 
+
+But it's more interesting to study whether there's a correlation between people getting vaccinated and new cases of infected/deceased? I decided to study the data monthly. One could study the raw data, but it's hard to read and comprehend as the numbers are quite big. Alternatively, one could take a country with smaller population and study the question in the context of one country. But I've chosen to use Tableau and also calculate the Pearson correlation coefficient. First of all, the Pearson correlation coefficient is a measure of linear correlation and is defined as the covariance between a pair of variables divided by a product of their standard deviations, but it can also be written as
+
+<img width="406" alt="Снимок экрана 2025-04-23 в 16 07 08" src="https://github.com/user-attachments/assets/0ea26197-6e2d-4483-b2b8-367423830d4f" />
+
+and ranges from -1 (negative correlation) and +1 (positive correlation).
+
+The correlation coefficient for new cases of infected vs total people vaccinated is 0.22 whereas the correlation coefficient for new cases of deaths vs total people vaccinated is -0.44, which is a bit surprising. First of all, a positive (negative) correlation coefficient implies that the variables are proportional (inversely proportional). In our case, it would mean that there was a correlation between growth (decreas) of people infected/deceased and people vaccinated. The first value is quite low and the correlation is said to be low. On the other hand, the 2nd value suggests a moderate correltion and, what's even more important, it also says that the values are inversely proportional (i.e. the more people got vaccinated, the fewer people died). But of course it would be wrong to impose a connection simply based on this. 
+
+Finally, let's visualise the data. 
+
+<img width="1236" alt="Снимок экрана 2025-04-23 в 16 37 01" src="https://github.com/user-attachments/assets/78b73edf-ec0a-42d3-bb07-a6618974679d" />
 
 
 
