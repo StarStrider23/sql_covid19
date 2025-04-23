@@ -88,7 +88,7 @@ And majority of the countries are present in both top 5, as one can see. The onl
 
 ### 6. 
 
-But it's more interesting to study whether there's a correlation between people getting vaccinated and new cases of infected/deceased? I decided to study the data monthly. One could study the raw data, but it's hard to read and comprehend as the numbers are quite big. Alternatively, one could take a country with smaller population and study the question in the context of one country. But I've chosen to use Tableau and also calculate the Pearson correlation coefficient. First of all, the Pearson correlation coefficient is a measure of linear correlation and is defined as the covariance between a pair of variables divided by a product of their standard deviations, but it can also be written as
+But it's more interesting to study whether there's a correlation between people getting vaccinated and new cases of infected/deceased? I decided to study the data monthly. One could study the raw data, but it's hard to read and comprehend as the numbers are quite big. Alternatively, one could take a country with smaller population and study the question in the context of one country. But I've chosen to use Tableau and also calculate Pearson correlation coefficient. First of all, Pearson correlation coefficient is a measure of linear correlation and is defined as the covariance between a pair of variables divided by a product of their standard deviations, but it can also be written as
 
 <img width="406" alt="Снимок экрана 2025-04-23 в 16 07 08" src="https://github.com/user-attachments/assets/0ea26197-6e2d-4483-b2b8-367423830d4f" />
 
